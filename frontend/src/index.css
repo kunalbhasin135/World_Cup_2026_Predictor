@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Barlow Condensed", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-pitch: #0a1419;
+  --color-pitch-light: #0f1c24;
+  --color-pitch-card: #132228;
+  --color-pitch-line: #1a3d32;
+  --color-accent: #2db87a;
+  --color-accent-dim: #239665;
+  --color-gold: #e8c547;
+  --color-gold-dim: #c9a83a;
+  --color-muted: #8fa3b0;
+  --color-trophy: #f0d78c;
+}
+
+/* Light theme */
+[data-theme='light'] {
+  --color-pitch: #e8f0ec;
+  --color-pitch-light: #f4f8f6;
+  --color-pitch-card: #ffffff;
+  --color-pitch-line: #c5ddd4;
+  --color-accent: #1a8f5c;
+  --color-accent-dim: #157a4f;
+  --color-gold: #b8860b;
+  --color-gold-dim: #9a7209;
+  --color-muted: #5a6b7d;
+  --color-trophy: #8b6914;
+}
+
+/* Subtle pitch stripe + center-circle motif */
+body {
+  @apply bg-pitch text-white antialiased min-h-screen font-sans;
+  background-image:
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232db87a' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 120px,
+      rgba(45, 184, 122, 0.04) 120px,
+      rgba(45, 184, 122, 0.04) 240px
+    ),
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(45, 184, 122, 0.14), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(232, 197, 71, 0.06), transparent);
+}
+
+[data-theme='light'] body {
+  @apply text-gray-900;
+  background-image:
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231a8f5c' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 120px,
+      rgba(26, 143, 92, 0.05) 120px,
+      rgba(26, 143, 92, 0.05) 240px
+    ),
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(26, 143, 92, 0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(184, 134, 11, 0.05), transparent);
+}
+
+/* Reusable WC card surface */
+.wc-card {
+  @apply bg-pitch-card border border-white/10 rounded-2xl shadow-lg;
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+[data-theme='light'] .wc-card {
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+/* Trophy / champion highlight band */
+.wc-champion-band {
+  background: linear-gradient(
+    135deg,
+    rgba(232, 197, 71, 0.12) 0%,
+    rgba(45, 184, 122, 0.08) 50%,
+    rgba(232, 197, 71, 0.06) 100%
+  );
+  border: 1px solid rgba(232, 197, 71, 0.25);
+}
+
+[data-theme='light'] .wc-champion-band {
+  background: linear-gradient(135deg, rgba(184, 134, 11, 0.1), rgba(26, 143, 92, 0.06));
+  border-color: rgba(184, 134, 11, 0.2);
+}
+
+/* Display headings — slightly condensed, stadium-board feel */
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+/* Pitch sideline accent (top of sections) */
+.wc-section-top {
+  position: relative;
+}
+.wc-section-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 1.5rem;
+  right: 1.5rem;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(45, 184, 122, 0.5) 20%,
+    rgba(232, 197, 71, 0.4) 50%,
+    rgba(45, 184, 122, 0.5) 80%,
+    transparent
+  );
+  border-radius: 1px;
+}
+
+/* Primary CTA — pitch green */
+.wc-btn-primary {
+  @apply font-semibold rounded-xl transition-colors;
+  background: linear-gradient(180deg, var(--color-accent) 0%, var(--color-accent-dim) 100%);
+  color: var(--color-pitch);
+  box-shadow: 0 2px 12px rgba(45, 184, 122, 0.35);
+}
+.wc-btn-primary:hover:not(:disabled) {
+  filter: brightness(1.08);
+}
+.wc-btn-primary:disabled {
+  opacity: 0.45;
+}
+
+/* Tab active — jersey stripe hint */
+.wc-tab-active {
+  background: linear-gradient(180deg, rgba(45, 184, 122, 0.2), rgba(45, 184, 122, 0.08));
+  border-bottom: 2px solid var(--color-accent);
+}
+
+/* Light theme border/text overrides */
+[data-theme='light'] .border-white\/10 {
+  border-color: rgb(0 0 0 / 0.08);
+}
+[data-theme='light'] .border-white\/15 {
+  border-color: rgb(0 0 0 / 0.1);
+}
+[data-theme='light'] .bg-white\/5 {
+  background-color: rgb(0 0 0 / 0.04);
+}
+[data-theme='light'] .text-white {
+  color: rgb(17 24 39);
+}
+[data-theme='light'] .text-white\/75,
+[data-theme='light'] .text-white\/80,
+[data-theme='light'] .text-white\/90 {
+  color: rgb(31 41 55);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(45, 184, 122, 0.35);
+  border-radius: 999px;
+}
+[data-theme='light'] ::-webkit-scrollbar-thumb {
+  background: rgba(26, 143, 92, 0.3);
+}

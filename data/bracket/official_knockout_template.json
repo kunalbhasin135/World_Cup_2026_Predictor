@@ -1,0 +1,45 @@
+{
+  "source": "FIFA World Cup 2026 knockout stage bracket (fixed paths + Annex C third-place slots)",
+  "match_numbering": "FIFA match numbers 73–104",
+  "third_place_slots": ["1A", "1B", "1D", "1E", "1G", "1I", "1K", "1L"],
+  "round_of_32": [
+    { "id": "M73", "team_a": "2A", "team_b": "2B" },
+    { "id": "M74", "team_a": "1E", "team_b": "3:1E" },
+    { "id": "M75", "team_a": "1F", "team_b": "2C" },
+    { "id": "M76", "team_a": "1C", "team_b": "2F" },
+    { "id": "M77", "team_a": "1I", "team_b": "3:1I" },
+    { "id": "M78", "team_a": "2E", "team_b": "2I" },
+    { "id": "M79", "team_a": "1A", "team_b": "3:1A" },
+    { "id": "M80", "team_a": "1L", "team_b": "3:1L" },
+    { "id": "M81", "team_a": "1D", "team_b": "3:1D" },
+    { "id": "M82", "team_a": "1G", "team_b": "3:1G" },
+    { "id": "M83", "team_a": "2K", "team_b": "2L" },
+    { "id": "M84", "team_a": "1H", "team_b": "2J" },
+    { "id": "M85", "team_a": "1B", "team_b": "3:1B" },
+    { "id": "M86", "team_a": "1J", "team_b": "2H" },
+    { "id": "M87", "team_a": "1K", "team_b": "3:1K" },
+    { "id": "M88", "team_a": "2D", "team_b": "2G" }
+  ],
+  "round_of_16": [
+    { "id": "M90", "team_a": "W:M73", "team_b": "W:M75" },
+    { "id": "M89", "team_a": "W:M74", "team_b": "W:M77" },
+    { "id": "M91", "team_a": "W:M76", "team_b": "W:M78" },
+    { "id": "M92", "team_a": "W:M79", "team_b": "W:M80" },
+    { "id": "M93", "team_a": "W:M83", "team_b": "W:M84" },
+    { "id": "M94", "team_a": "W:M81", "team_b": "W:M82" },
+    { "id": "M95", "team_a": "W:M86", "team_b": "W:M88" },
+    { "id": "M96", "team_a": "W:M85", "team_b": "W:M87" }
+  ],
+  "quarter_finals": [
+    { "id": "M97", "team_a": "W:M89", "team_b": "W:M90" },
+    { "id": "M98", "team_a": "W:M93", "team_b": "W:M94" },
+    { "id": "M99", "team_a": "W:M91", "team_b": "W:M92" },
+    { "id": "M100", "team_a": "W:M95", "team_b": "W:M96" }
+  ],
+  "semi_finals": [
+    { "id": "M101", "team_a": "W:M97", "team_b": "W:M98" },
+    { "id": "M102", "team_a": "W:M99", "team_b": "W:M100" }
+  ],
+  "third_place": { "id": "M103", "team_a": "L:M101", "team_b": "L:M102" },
+  "final": { "id": "M104", "team_a": "W:M101", "team_b": "W:M102" }
+}

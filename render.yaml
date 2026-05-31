@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: wc2026-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt && python scripts/build_features.py && python scripts/train_model.py
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: USE_HISTORICAL_FEATURES
+        value: "true"
+      - key: PYTHON_VERSION
+        value: "3.13"

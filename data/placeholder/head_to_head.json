@@ -1,0 +1,92 @@
+{
+  "Argentina|France": {
+    "team_a_wins": 7,
+    "draws": 4,
+    "team_b_wins": 6,
+    "recent_meetings": 17,
+    "last_meeting_score": "3-2",
+    "last_meeting_winner": "Argentina",
+    "summary": "Historically tight rivalry with Argentina edging recent competitive meetings."
+  },
+  "Brazil|Argentina": {
+    "team_a_wins": 9,
+    "draws": 8,
+    "team_b_wins": 7,
+    "recent_meetings": 24,
+    "last_meeting_score": "1-0",
+    "last_meeting_winner": "Argentina",
+    "summary": "Classic South American superclasico — form and home context often decide tight margins."
+  },
+  "England|France": {
+    "team_a_wins": 4,
+    "draws": 5,
+    "team_b_wins": 6,
+    "recent_meetings": 15,
+    "last_meeting_score": "2-1",
+    "last_meeting_winner": "France",
+    "summary": "France have had the edge in recent knockout-era meetings."
+  },
+  "Germany|Spain": {
+    "team_a_wins": 5,
+    "draws": 6,
+    "team_b_wins": 4,
+    "recent_meetings": 15,
+    "last_meeting_score": "1-1",
+    "last_meeting_winner": "draw",
+    "summary": "Tactical chess match — many draws between two possession-oriented sides."
+  },
+  "USA|Mexico": {
+    "team_a_wins": 6,
+    "draws": 5,
+    "team_b_wins": 8,
+    "recent_meetings": 19,
+    "last_meeting_score": "2-0",
+    "last_meeting_winner": "Mexico",
+    "summary": "CONCACAF rivalry with Mexico historically strong in competitive fixtures."
+  },
+  "Portugal|Spain": {
+    "team_a_wins": 4,
+    "draws": 3,
+    "team_b_wins": 9,
+    "recent_meetings": 16,
+    "last_meeting_score": "1-0",
+    "last_meeting_winner": "Spain",
+    "summary": "Iberian derby — Spain's possession control has often dominated."
+  },
+  "Netherlands|Argentina": {
+    "team_a_wins": 4,
+    "draws": 3,
+    "team_b_wins": 6,
+    "recent_meetings": 13,
+    "last_meeting_score": "2-2",
+    "last_meeting_winner": "draw",
+    "summary": "Memorable World Cup history — Argentina lead overall but meetings are often close."
+  },
+  "Croatia|France": {
+    "team_a_wins": 2,
+    "draws": 2,
+    "team_b_wins": 4,
+    "recent_meetings": 8,
+    "last_meeting_score": "4-2",
+    "last_meeting_winner": "France",
+    "summary": "France won the 2018 final — Croatia competitive but France favored on paper."
+  },
+  "Morocco|France": {
+    "team_a_wins": 1,
+    "draws": 2,
+    "team_b_wins": 4,
+    "recent_meetings": 7,
+    "last_meeting_score": "2-0",
+    "last_meeting_winner": "France",
+    "summary": "France won the 2022 semi-final — Morocco's defensive organization keeps games close."
+  },
+  "Japan|Spain": {
+    "team_a_wins": 1,
+    "draws": 2,
+    "team_b_wins": 3,
+    "recent_meetings": 6,
+    "last_meeting_score": "2-1",
+    "last_meeting_winner": "Japan",
+    "summary": "Japan's shock 2022 win showed they can upset possession-heavy European sides."
+  }
+}

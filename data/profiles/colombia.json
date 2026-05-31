@@ -1,0 +1,27 @@
+{
+  "name": "Colombia",
+  "country_code": "COL",
+  "style_of_play": "Attacking football with flair in wide areas, quick combinations, and emphasis on creative midfield play.",
+  "strengths": [
+    "wing talent",
+    "creative midfield",
+    "counter-attacking speed",
+    "passionate fan support",
+    "set-piece options"
+  ],
+  "weaknesses": [
+    "defensive consistency",
+    "can lose shape when chasing games",
+    "vulnerable to structured pressing"
+  ],
+  "key_players": [
+    "Luis Diaz",
+    "James Rodriguez",
+    "Jhon Duran",
+    "Jefferson Lerma",
+    "Davinson Sanchez"
+  ],
+  "tactical_summary": "Attack through Diaz and James in half-spaces with overlapping fullbacks; midfield double pivot provides balance while the front three interchange positions.",
+  "why_it_matters": "Colombia's flair and South American pedigree give them upset potential against any top seed on their day.",
+  "injury_news": "Placeholder — squad news pending API integration."
+}

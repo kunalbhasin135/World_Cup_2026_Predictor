@@ -1,0 +1,27 @@
+{
+  "name": "Germany",
+  "country_code": "GER",
+  "style_of_play": "Direct vertical football with aggressive pressing and emphasis on quick forward progression.",
+  "strengths": [
+    "pressing intensity",
+    "vertical passing",
+    "physicality in midfield",
+    "set-piece variety",
+    "tactical flexibility"
+  ],
+  "weaknesses": [
+    "defensive transitions can be exposed",
+    "inconsistency in final-third decision-making",
+    "vulnerable to patient possession teams"
+  ],
+  "key_players": [
+    "Jamal Musiala",
+    "Florian Wirtz",
+    "Kai Havertz",
+    "Joshua Kimmich",
+    "Antonio Rudiger"
+  ],
+  "tactical_summary": "Press in coordinated waves to win the ball high; attack with direct passes into the feet of advanced midfielders and wingers running in behind. Fullbacks invert or overlap depending on opponent shape.",
+  "why_it_matters": "Germany's gegenpressing can disrupt build-up play and create high-quality chances before opponents settle into shape.",
+  "injury_news": "Placeholder — no live squad feed connected."
+}

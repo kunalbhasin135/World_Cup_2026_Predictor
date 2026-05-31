@@ -1,0 +1,27 @@
+{
+  "name": "Argentina",
+  "country_code": "ARG",
+  "style_of_play": "Possession-heavy with short combinations through midfield and aggressive pressing after losing possession.",
+  "strengths": [
+    "midfield creativity",
+    "technical quality",
+    "chance creation",
+    "set-piece delivery",
+    "experience in knockout tournaments"
+  ],
+  "weaknesses": [
+    "vulnerable on defensive transitions",
+    "can struggle against quick counters",
+    "aging core in some positions"
+  ],
+  "key_players": [
+    "Lionel Messi",
+    "Lautaro Martinez",
+    "Julian Alvarez",
+    "Enzo Fernandez",
+    "Emiliano Martinez"
+  ],
+  "tactical_summary": "Build through the half-spaces with inverted wingers cutting inside; fullbacks provide width when the block is compact. Midfield trio controls tempo and recycles possession to create overloads around the box.",
+  "why_it_matters": "Argentina's midfield control can slow down transition-heavy teams and create sustained pressure, forcing opponents to defend deep for long stretches.",
+  "injury_news": "Placeholder — squad fitness updates will be added when live data is integrated."
+}

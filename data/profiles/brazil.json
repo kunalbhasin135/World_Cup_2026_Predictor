@@ -1,0 +1,27 @@
+{
+  "name": "Brazil",
+  "country_code": "BRA",
+  "style_of_play": "Fluid attacking football with emphasis on dribbling, width, and quick interchanges in the final third.",
+  "strengths": [
+    "1v1 attacking talent",
+    "wing play and crossing",
+    "goal-scoring depth",
+    "technical midfielders",
+    "high pressing triggers"
+  ],
+  "weaknesses": [
+    "can leave space behind the fullbacks",
+    "occasional over-reliance on individual brilliance",
+    "vulnerable to organized low blocks"
+  ],
+  "key_players": [
+    "Vinicius Jr",
+    "Rodrygo",
+    "Raphinha",
+    "Bruno Guimaraes",
+    "Marquinhos"
+  ],
+  "tactical_summary": "Attack with width through overlapping fullbacks and inverted wingers; central midfielders link play and arrive late in the box. Press aggressively after turnovers to force mistakes high up the pitch.",
+  "why_it_matters": "Brazil's ability to isolate defenders in wide areas creates constant crossing and cut-back opportunities against narrow defensive shapes.",
+  "injury_news": "Placeholder — no live injury feed connected yet."
+}

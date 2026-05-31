@@ -1,0 +1,27 @@
+{
+  "name": "Belgium",
+  "country_code": "BEL",
+  "style_of_play": "Possession-oriented with creative midfielders and a focus on unlocking defenses through central combinations.",
+  "strengths": [
+    "midfield creativity",
+    "technical quality",
+    "set-piece threat",
+    "experienced core",
+    "goalkeeper reliability"
+  ],
+  "weaknesses": [
+    "aging squad in transition",
+    "defensive mobility on transitions",
+    "can lack width without overlapping fullbacks"
+  ],
+  "key_players": [
+    "Kevin De Bruyne",
+    "Romelu Lukaku",
+    "Youri Tielemans",
+    "Jeremy Doku",
+    "Thibaut Courtois"
+  ],
+  "tactical_summary": "Build through De Bruyne and the midfield triangle; striker holds up play while wingers isolate fullbacks. Drop into a compact 4-4-2 without the ball.",
+  "why_it_matters": "Belgium's creative midfield can unlock tight defensive blocks with a single incisive pass or set-piece delivery.",
+  "injury_news": "Placeholder — monitor key midfielder and striker fitness updates."
+}

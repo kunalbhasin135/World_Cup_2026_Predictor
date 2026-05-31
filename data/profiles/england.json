@@ -1,0 +1,27 @@
+{
+  "name": "England",
+  "country_code": "ENG",
+  "style_of_play": "Structured possession with emphasis on wide overloads, set pieces, and physical pressing.",
+  "strengths": [
+    "set-piece threat",
+    "squad depth",
+    "athletic midfield",
+    "defensive organization",
+    "wing-back width"
+  ],
+  "weaknesses": [
+    "can lack creativity against deep blocks",
+    "occasional conservative game management",
+    "dependency on wide delivery at times"
+  ],
+  "key_players": [
+    "Harry Kane",
+    "Bukayo Saka",
+    "Phil Foden",
+    "Declan Rice",
+    "John Stones"
+  ],
+  "tactical_summary": "Build in a 3-2-5 type shape in possession with wing-backs stretching the field; target striker links play and attacks the box on crosses and cutbacks. Compact 5-4-1 without the ball.",
+  "why_it_matters": "England's set-piece routines and aerial presence can decide tight knockout matches even when open play is stifled.",
+  "injury_news": "Placeholder — squad news to be updated via API integration later."
+}

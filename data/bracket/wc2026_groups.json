@@ -1,0 +1,22 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "format": "48 teams · 12 groups · Round of 32 knockout",
+  "draw_date": "2025-12-05",
+  "last_updated": "2026-05-28",
+  "source": "Official FIFA final draw (Kennedy Center, Washington D.C.) — UEFA and inter-confederation play-off winners confirmed 2026-03-31",
+  "note": "Group order follows draw positions (1–4). Hosts: Mexico (A), Canada (B), USA (D).",
+  "groups": {
+    "A": ["Mexico", "South Africa", "South Korea", "Czech Republic"],
+    "B": ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"],
+    "C": ["Brazil", "Morocco", "Haiti", "Scotland"],
+    "D": ["USA", "Paraguay", "Australia", "Turkey"],
+    "E": ["Germany", "Curaçao", "Ivory Coast", "Ecuador"],
+    "F": ["Netherlands", "Japan", "Sweden", "Tunisia"],
+    "G": ["Belgium", "Egypt", "Iran", "New Zealand"],
+    "H": ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"],
+    "I": ["France", "Senegal", "Iraq", "Norway"],
+    "J": ["Argentina", "Algeria", "Austria", "Jordan"],
+    "K": ["Portugal", "DR Congo", "Uzbekistan", "Colombia"],
+    "L": ["England", "Croatia", "Ghana", "Panama"]
+  }
+}

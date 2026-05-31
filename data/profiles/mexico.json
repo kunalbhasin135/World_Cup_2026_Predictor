@@ -1,0 +1,27 @@
+{
+  "name": "Mexico",
+  "country_code": "MEX",
+  "style_of_play": "Compact mid-block with quick transitions and technical combinations in the final third.",
+  "strengths": [
+    "home support in 2026",
+    "compact defensive shape",
+    "technical wingers",
+    "experience in CONCACAF and World Cups",
+    "set-piece organization"
+  ],
+  "weaknesses": [
+    "limited depth against top-tier opponents",
+    "can struggle when forced to chase games",
+    "physicality mismatch in midfield at times"
+  ],
+  "key_players": [
+    "Edson Alvarez",
+    "Hirving Lozano",
+    "Alexis Vega",
+    "Guillermo Ochoa",
+    "Santiago Gimenez"
+  ],
+  "tactical_summary": "Defend in a narrow 4-4-2 mid-block and break through quick vertical passes to wingers; fullbacks join selectively to avoid leaving gaps on the counter.",
+  "why_it_matters": "Mexico's familiarity with host-nation pressure and passionate support can elevate performance in key group and knockout fixtures.",
+  "injury_news": "Placeholder — squad news pending live data integration."
+}

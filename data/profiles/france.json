@@ -1,0 +1,27 @@
+{
+  "name": "France",
+  "country_code": "FRA",
+  "style_of_play": "Fast direct attacking football with strong transition speed and dangerous wide attacking play.",
+  "strengths": [
+    "pace in attack",
+    "attacking depth",
+    "counterattacks",
+    "aerial presence",
+    "individual match-winners"
+  ],
+  "weaknesses": [
+    "can lose midfield control",
+    "defensive injuries can impact structure",
+    "occasional inconsistency in possession phases"
+  ],
+  "key_players": [
+    "Kylian Mbappe",
+    "Antoine Griezmann",
+    "Aurelien Tchouameni",
+    "William Saliba",
+    "Ousmane Dembele"
+  ],
+  "tactical_summary": "Sit compact without the ball and spring forward through vertical passes to wingers and the striker. Fullbacks push high in possession but recover quickly to protect central channels on the break.",
+  "why_it_matters": "France can score quickly even with limited possession, making them dangerous against teams that commit bodies forward.",
+  "injury_news": "Placeholder — monitor defensive line availability closer to tournament kickoff."
+}

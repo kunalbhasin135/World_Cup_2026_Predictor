@@ -1,0 +1,267 @@
+{
+  "last_updated": "2026-05-28",
+  "source": "curated",
+  "note": "Structured squad feed for demo. Set API_FOOTBALL_KEY and run scripts/refresh_live_squad.py to pull live injuries.",
+  "teams": {
+    "Spain": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Spain enter the summer window with one key midfield doubt but a largely fit core for the expanded squad.",
+      "squad_strength_modifier": 0.98,
+      "injuries": [
+        {
+          "player": "Gavi",
+          "status": "out",
+          "detail": "ACL recovery — not expected for opening group matches",
+          "expected_return": "Knockout phase TBD"
+        },
+        {
+          "player": "Pedri",
+          "status": "doubtful",
+          "detail": "Muscle fatigue — managed minutes in recent camps",
+          "expected_return": "Group stage"
+        }
+      ]
+    },
+    "Portugal": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Portugal list is strong; minor knocks to wide options but Ronaldo-led attack intact.",
+      "squad_strength_modifier": 1.0,
+      "injuries": [
+        {
+          "player": "Diogo Jota",
+          "status": "out",
+          "detail": "Season-ending knee injury — ruled out of tournament",
+          "expected_return": null
+        },
+        {
+          "player": "Nuno Mendes",
+          "status": "doubtful",
+          "detail": "Hamstring tightness — expected to train fully before R16",
+          "expected_return": "Round of 16"
+        }
+      ]
+    },
+    "France": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "France monitoring defensive depth; attack remains at full strength.",
+      "squad_strength_modifier": 1.0,
+      "injuries": [
+        {
+          "player": "Kylian Mbappe",
+          "status": "fit",
+          "detail": "Cleared after mask protocol — no restrictions",
+          "expected_return": null
+        },
+        {
+          "player": "Aurelien Tchouameni",
+          "status": "recovering",
+          "detail": "Ankle knock — full training resumed",
+          "expected_return": "Group stage"
+        }
+      ]
+    },
+    "England": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "England carry minor doubts in midfield but key forwards available.",
+      "squad_strength_modifier": 0.99,
+      "injuries": [
+        {
+          "player": "Harry Kane",
+          "status": "fit",
+          "detail": "No issues reported in camp",
+          "expected_return": null
+        },
+        {
+          "player": "Jude Bellingham",
+          "status": "doubtful",
+          "detail": "Shoulder knock — expected to start opener",
+          "expected_return": "Group stage"
+        }
+      ]
+    },
+    "Germany": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Germany squad largely fit ahead of the North American tournament.",
+      "squad_strength_modifier": 1.0,
+      "injuries": [
+        {
+          "player": "Joshua Kimmich",
+          "status": "fit",
+          "detail": "Full participant in tactical sessions",
+          "expected_return": null
+        }
+      ]
+    },
+    "Brazil": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Brazil without one senior wide option; Vinicius Jr leads the left flank.",
+      "squad_strength_modifier": 0.99,
+      "injuries": [
+        {
+          "player": "Neymar",
+          "status": "recovering",
+          "detail": "Building minutes after long layoff — role may be limited early",
+          "expected_return": "Round of 16"
+        }
+      ]
+    },
+    "Argentina": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Argentina defending champions with Messi managed but available.",
+      "squad_strength_modifier": 1.0,
+      "injuries": [
+        {
+          "player": "Lionel Messi",
+          "status": "doubtful",
+          "detail": "Load management — expected to play key knockout minutes",
+          "expected_return": "Group stage"
+        },
+        {
+          "player": "Leandro Paredes",
+          "status": "out",
+          "detail": "Muscle injury — replaced in squad",
+          "expected_return": null
+        }
+      ]
+    },
+    "Netherlands": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Netherlands missing one centre-back option; De Jong returns to midfield.",
+      "squad_strength_modifier": 0.97,
+      "injuries": [
+        {
+          "player": "Frenkie de Jong",
+          "status": "recovering",
+          "detail": "Ankle — back in full training",
+          "expected_return": "Group stage"
+        },
+        {
+          "player": "Matthijs de Ligt",
+          "status": "out",
+          "detail": "Knee surgery — not in squad",
+          "expected_return": null
+        }
+      ]
+    },
+    "Belgium": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Belgium transition squad with De Bruyne central if fit.",
+      "squad_strength_modifier": 0.98,
+      "injuries": [
+        {
+          "player": "Kevin De Bruyne",
+          "status": "doubtful",
+          "detail": "Hamstring — fitness test before knockout rounds",
+          "expected_return": "Round of 16"
+        }
+      ]
+    },
+    "Croatia": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Croatia veteran core reporting fit for another deep run.",
+      "squad_strength_modifier": 1.0,
+      "injuries": [
+        {
+          "player": "Luka Modric",
+          "status": "fit",
+          "detail": "No restrictions — reduced minutes possible in group",
+          "expected_return": null
+        }
+      ]
+    },
+    "USA": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Host nation USA near full strength for opening matches.",
+      "squad_strength_modifier": 1.0,
+      "injuries": [
+        {
+          "player": "Christian Pulisic",
+          "status": "fit",
+          "detail": "Captain cleared after minor knock",
+          "expected_return": null
+        }
+      ]
+    },
+    "Mexico": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Mexico monitoring one striker doubt ahead of group play.",
+      "squad_strength_modifier": 0.99,
+      "injuries": [
+        {
+          "player": "Raul Jimenez",
+          "status": "doubtful",
+          "detail": "Foot issue — day-to-day",
+          "expected_return": "Group stage"
+        }
+      ]
+    },
+    "Canada": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Canada co-hosts with Davies available as primary outlet.",
+      "squad_strength_modifier": 1.0,
+      "injuries": [
+        {
+          "player": "Alphonso Davies",
+          "status": "fit",
+          "detail": "No concerns from Bayern medical report",
+          "expected_return": null
+        }
+      ]
+    },
+    "Morocco": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Morocco semi-finalists from 2022 with Hakimi fit.",
+      "squad_strength_modifier": 1.0,
+      "injuries": []
+    },
+    "Japan": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Japan technical squad fully available for group stage.",
+      "squad_strength_modifier": 1.0,
+      "injuries": []
+    },
+    "Colombia": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Colombia attack led by Diaz; no major absences reported.",
+      "squad_strength_modifier": 1.0,
+      "injuries": [
+        {
+          "player": "Luis Diaz",
+          "status": "fit",
+          "detail": "Shoulder recovered — full training",
+          "expected_return": null
+        }
+      ]
+    },
+    "Uruguay": {
+      "last_updated": "2026-05-28",
+      "source": "curated",
+      "injury_summary": "Uruguay physical midfield intact; Nunez leads the line.",
+      "squad_strength_modifier": 1.0,
+      "injuries": [
+        {
+          "player": "Ronald Araujo",
+          "status": "doubtful",
+          "detail": "Hamstring — race for QF fitness",
+          "expected_return": "Quarter-finals"
+        }
+      ]
+    }
+  }
+}

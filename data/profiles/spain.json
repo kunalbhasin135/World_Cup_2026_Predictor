@@ -1,0 +1,27 @@
+{
+  "name": "Spain",
+  "country_code": "ESP",
+  "style_of_play": "Positional possession with high line, coordinated pressing, and intricate passing combinations.",
+  "strengths": [
+    "possession control",
+    "midfield rotation",
+    "pressing structure",
+    "technical security under pressure",
+    "young attacking talent"
+  ],
+  "weaknesses": [
+    "can lack verticality against compact blocks",
+    "high line risk on direct balls in behind",
+    "finishing efficiency varies by matchup"
+  ],
+  "key_players": [
+    "Pedri",
+    "Gavi",
+    "Alvaro Morata",
+    "Dani Olmo",
+    "Aymeric Laporte"
+  ],
+  "tactical_summary": "Maintain a high defensive line and circulate the ball to draw opponents out, then penetrate through third-man runs and half-space combinations. Immediate counter-press after losses.",
+  "why_it_matters": "Spain's control of tempo can neutralize transition teams by limiting their opportunities to break forward.",
+  "injury_news": "Placeholder — injury updates pending live data source."
+}
