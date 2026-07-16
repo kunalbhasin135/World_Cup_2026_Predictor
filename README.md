@@ -7,6 +7,8 @@
 
 Full-stack football analytics app: calibrated match probabilities, scorelines, tactical breakdowns, a **48-team knockout bracket**, and Monte Carlo champion odds — built as a portfolio project.
 
+> 🎯 **Track record: the model correctly predicted all four semi-finalists and both finalists of the real 2026 FIFA World Cup.**
+
 | | |
 | --- | --- |
 | **Repository** | [github.com/kunalbhasin135/World_Cup_2026_Predictor](https://github.com/kunalbhasin135/World_Cup_2026_Predictor) |
@@ -22,13 +24,17 @@ Full-stack football analytics app: calibrated match probabilities, scorelines, t
 
 ## Screenshots
 
-_Add images to [`docs/screenshots/`](docs/screenshots/) then uncomment the gallery below._
-
-<!--
-| Prediction | Bracket |
+| Match predictor | Prediction result |
 | :---: | :---: |
-| ![Match prediction](docs/screenshots/predict.png) | ![Tournament bracket](docs/screenshots/bracket.png) |
--->
+| ![Match predictor](docs/screenshots/match-predictor.png) | ![Prediction result — Spain vs Argentina with implied odds](docs/screenshots/prediction-result.png) |
+
+| 48-team knockout bracket | Monte Carlo champion odds |
+| :---: | :---: |
+| ![Knockout bracket](docs/screenshots/bracket.png) | ![Monte Carlo champion odds](docs/screenshots/monte-carlo.png) |
+
+| Group-stage predictions |
+| :---: |
+| ![Group-stage predictions](docs/screenshots/group-stage.png) |
 
 ## Tech stack
 
